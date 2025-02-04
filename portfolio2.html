@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>checkpoint17, 121</title>
+<style>
+   /* Apply a 1px solid black border around all text (including paragraphs, headings, etc.) */
+p, h1, a {
+  border: 1px solid black;
+}
+
+/* Apply a 1px solid black border around images */
+img {
+  border: 5px solid rgb(255, 255, 255);         /* Black border */
+  outline: 1px solid rgb(0, 0, 0);        /* White outline around the black border */
+}
+
+/* Apply a 1px solid black border around videos */
+video {
+  border: 5px solid rgb(255, 255, 255);         /* Black border */
+  outline: 1px solid rgb(0, 0, 0);        /* White outline around the black border */
+}
+   
+   
+   
+   
+   
+   
+   body {
+       
+        margin: 0;
+        padding: 0;
+        cursor: crosshair;
+    }
+
+    .container {
+        display: flex;
+        
+    }
+
+    .fixed-content {
+        flex: 1;
+        padding: 20px;
+        cursor: crosshair;
+    }
+
+    .fixed-content img,
+    .fixed-content video {
+        
+        flex: 1;
+        margin-bottom: 20px;
+        max-width: 100%;
+        cursor: crosshair;
+    }
+
+    .scrollable-content {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        cursor: crosshair;
+    }
+
+    .scrollable-content img,
+    .scrollable-content video {
+        display: block;
+        margin-bottom: 20px;
+        max-width: 100%;
+        cursor: crosshair;
+    }
+
+    .text-link{
+        cursor: crosshair;
+    }
+</style>
+</head>
+<body>
+
+    <a href="index.html" class="text-link">home</a>
+<div class="container">
+    <div class="fixed-content">
+
+        
+        <p>checkpoint17, 121</p>
+        <p>Acting as a point of entry, checkpoint17, 121 proposes the videoke machine 
+            as an object of Philippine cultural technology, an object that not only 
+            connects the Philippines and embodies reconstructions of home and identity</p>
+    
+            <img src="videoke phone photo 1.jpg" alt="Image" class="image">
+            <img src="videoke phone photo 3.jpg" alt="Image" class="image">
+    </div>
+    <div class="scrollable-content">
+    
+        <video controls>
+            <source src="videoke visualiser cropped + audio.mp4" type="video/mp4" class="text-link">
+            Your browser does not support the video tag.
+        </video>
+
+        <img src="videoke phone photo 2.jpg" alt="Image" class="image">
+        <img src="videoke phone photo 4.jpg" alt="Image" class="image">
+       
+        <!-- Add more images or videos as needed -->
+    </div>
+</div>
+</body>
+</html>
+
+
+
