@@ -3,6 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script type="module">
+    import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+ 
+    new fairyDustCursor();
+
+    window.addEventListener("load", (event) => {
+    new cursoreffects.fairyDustCursor();
+  });
+ </script>
+
+
+
 <title>Imagined Experiences</title>
 <style>
       /* Apply a 1px solid black border around all text (including paragraphs, headings, etc.) */
@@ -30,7 +44,7 @@ video {
     body {
         margin: 0;
         padding: 0;
-        cursor: crosshair;
+        cursor:url('/photos/speakerconecursor.png'), auto;
         font-size: 100%;
     }
 
@@ -42,13 +56,13 @@ video {
     .text {
         flex: 1;
         padding: 0.8em;
-        cursor: crosshair;
+        cursor:url('/photos/speakerconecursor.png'), auto;
     }
 
     .text-link {
         flex: 1;
         padding: 0.8em;
-        cursor: crosshair;
+        cursor:url('/photos/speakerconecursor.png'), auto;
     }
 
 </style>

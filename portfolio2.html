@@ -3,6 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script type="module">
+    import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+ 
+    new fairyDustCursor();
+
+    window.addEventListener("load", (event) => {
+    new cursoreffects.fairyDustCursor();
+  });
+ </script>
+
+
 <title>checkpoint17, 121</title>
 <style>
     /* Apply a 1px solid black border around all text (including paragraphs, headings, etc.) */
@@ -31,7 +44,7 @@
         
          margin: 0;
          padding: 0;
-         cursor: crosshair;
+         cursor:url('/photos/speakerconecursor.png'), auto;
      }
  
      .container {
@@ -42,7 +55,7 @@
      .fixed-content {
          flex: 1;
          padding: 20px;
-         cursor: crosshair;
+         cursor:url('/photos/speakerconecursor.png'), auto;
      }
  
      .fixed-content img,
@@ -51,14 +64,14 @@
          flex: 1;
          margin-bottom: 20px;
          max-width: 100%;
-         cursor: crosshair;
+         cursor:url('/photos/speakerconecursor.png'), auto;
      }
  
      .scrollable-content {
          flex: 1;
          padding: 20px;
          overflow-y: auto;
-         cursor: crosshair;
+         cursor:url('/photos/speakerconecursor.png'), auto;
      }
  
      .scrollable-content img,
@@ -66,11 +79,11 @@
          display: block;
          margin-bottom: 20px;
          max-width: 100%;
-         cursor: crosshair;
+         cursor:url('/photos/speakerconecursor.png'), auto;
      }
  
      .text-link{
-         cursor: crosshair;
+        cursor:url('/photos/speakerconecursor.png'), auto;
      }
  </style>
 </head>
